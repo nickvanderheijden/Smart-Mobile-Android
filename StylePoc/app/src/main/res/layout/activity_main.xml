@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.poclayoutnickvanderheijden.MainActivity">
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:layout_weight="1"
+            android:background="@color/Blue"
+            android:contentDescription="@string/description"
+            app:srcCompat="@drawable/balotelli"
+            tools:contentDescription="@string/description"
+            />
+
+        <TableLayout
+            android:layout_width="391dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/Blue"
+            android:orientation="vertical"
+
+            >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="Name"
+                    tools:text="Name"
+                    style="@style/badass"
+                    />
+
+
+                <TextView
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="0dp"
+                    android:text="@string/badass"
+                    tools:text="Mario"
+                    style="@style/badass"
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/GenderText"
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Gender"
+                    tools:text="Gender"
+                    style="@style/badass"
+
+                    />
+
+                <TextView
+                    android:id="@+id/MaleText"
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="0dp"
+                    android:text="Male"
+                    tools:text="Male"
+                    style="@style/badass"
+
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/AgeText"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Age"
+                    tools:text="Age"
+                    style="@style/badass"
+
+                    />
+
+                <TextView
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="0dp"
+                    android:text="30"
+                    style="@style/badass"
+
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/BountyText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Bounty"
+                    tools:text="Bounty"
+                    style="@style/badass"
+
+                    />
+
+                <TextView
+                    android:id="@+id/BountyValue"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="0dp"
+                    android:text="9999999"
+                    tools:text="9999999"
+                    style="@style/badass"
+
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="522dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:foregroundTint="@android:color/background_light"
+                android:text="Details:"
+                tools:text="Details:"
+                style="@style/badass"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/Blue"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/Blue"
+                        android:text="Mario Barwuah Balotelli (Palermo, 12 augustus 1990) is een Italiaanse voetballer die bij voorkeur centraal in de aanval speelt. Hij tekende in augustus 2016 een driejarig contract bij OGC Nice, dat hem transfervrij overnam van Liverpool FC. In augustus 2010 debuteerde hij in het Italiaans voetbalelftal."
+                        android:textColor="@android:color/background_light"
+                        tools:text="Mario Barwuah Balotelli (Palermo, 12 augustus 1990) is een Italiaanse voetballer die bij voorkeur centraal in de aanval speelt. Hij tekende in augustus 2016 een driejarig contract bij OGC Nice, dat hem transfervrij overnam van Liverpool FC. In augustus 2010 debuteerde hij in het Italiaans voetbalelftal." />
+
+                    <Button
+                        android:id="@+id/btnReport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@android:color/darker_gray"
+                        android:text="Report"
+                        android:textColor="@android:color/background_light" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
