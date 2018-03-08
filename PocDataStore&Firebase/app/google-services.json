@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "429465009851",
+    "firebase_url": "https://datasync-23329.firebaseio.com",
+    "project_id": "datasync-23329",
+    "storage_bucket": "datasync-23329.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429465009851:android:2769c0c9b5d85088",
+        "android_client_info": {
+          "package_name": "com.example.pocdatastore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429465009851-nn9om0rqo2955uc3cqd24i9oqosmpei3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGHox_kdqTld4jBTaSq7iCG7xuqMLUqEo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
